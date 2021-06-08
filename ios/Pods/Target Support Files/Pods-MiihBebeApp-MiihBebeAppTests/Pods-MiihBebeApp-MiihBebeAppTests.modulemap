@@ -1,0 +1,6 @@
+module Pods_MiihBebeApp_MiihBebeAppTests {
+  umbrella header "Pods-MiihBebeApp-MiihBebeAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
