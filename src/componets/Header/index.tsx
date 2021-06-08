@@ -11,7 +11,6 @@ export default function Header() {
     <Container>
       <Head>
         <View>
-          <Title>MiihBebe</Title>
         </View>
       </Head>
     </Container>

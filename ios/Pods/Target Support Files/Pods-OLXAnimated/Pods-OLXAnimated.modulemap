@@ -1,0 +1,6 @@
+module Pods_OLXAnimated {
+  umbrella header "Pods-OLXAnimated-umbrella.h"
+
+  export *
+  module * { export * }
+}

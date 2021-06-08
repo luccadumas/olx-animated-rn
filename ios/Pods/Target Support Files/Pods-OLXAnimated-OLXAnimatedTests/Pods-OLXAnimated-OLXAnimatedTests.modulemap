@@ -1,0 +1,6 @@
+module Pods_OLXAnimated_OLXAnimatedTests {
+  umbrella header "Pods-OLXAnimated-OLXAnimatedTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
