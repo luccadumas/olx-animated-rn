@@ -1,17 +1,26 @@
 import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
-import Home from '../pages/Home';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import colors from '../constants/colors';
+import HomeScreen from '../pages/Home';
+import { Text } from 'react-native';
 
-const Stack = createStackNavigator();
+const Drawer = createDrawerNavigator();
 
 export default function Routes() {
   return (
-    <Stack.Navigator
-      initialRouteName="Login"
+      <Drawer.Navigator 
+      initialRouteName="Home"
       screenOptions={{
-        headerShown: false,
+        headerShown: true,
+        headerTitleStyle: {
+          display: 'none',
+        },
+        headerStyle: {
+          backgroundColor: `${colors.primary}`,
+        },
+        headerTintColor: '#FFF'
       }}>
-      <Stack.Screen name="Home" component={Home} />
-    </Stack.Navigator>
+        <Drawer.Screen name="Home" component={HomeScreen} />
+      </Drawer.Navigator>
   );
 }

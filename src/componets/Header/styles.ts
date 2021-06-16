@@ -5,7 +5,6 @@ import colors from '../../constants/colors';
 export const Container = styled.View`
   flex: 1;
   align-items: center;
-  background: ${colors.primary};
 `;
 
 export const Head = styled.View`
@@ -13,10 +12,4 @@ export const Head = styled.View`
     align-items: center;
     margin-top: 18px;
     margin-bottom: 40px;
-`;
-
-export const Title = styled.Text`
-    font-size: 22px;
-    color: ${colors.primary};
-    font-weight: 600;
 `;
