@@ -1,9 +1,6 @@
 import React, {useState} from 'react';
-import { ContainerMain, } from './styles';
-import MaskedView from '@react-native-masked-view/masked-view';
+import { ContainerMain } from './styles';
 import Footer from '../../componets/Footer';
-
-import Svg from 'react-native-svg';
 
 import { Animated, Dimensions, FlatList, Image, Platform, ScrollView, Text, View,} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
@@ -23,28 +20,28 @@ export default function Home() {
       id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
       title: 'First Item',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
-      thumbnail: 'https://img.olx.com.br/images/42/420078773573584.jpg'
+      thumbnail: 'https://dicas.olx.com.br/wp-content/uploads/2021/04/PS4-na-olx-preco-ficha-tecnica.png'
     },
     {
       id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
       title: 'Second Item',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
-      thumbnail: 'https://img.olx.com.br/images/66/663106255311276.jpg'
+      thumbnail: 'https://dicas.olx.com.br/wp-content/uploads/2021/04/celulares-mais-vendidos-na-olx-2020-capa-925x308.png'
     },
     {
       id: '58694a0f-3da1-471f-bd96-145571e29d72',
       title: 'Third Item',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
-      thumbnail: 'https://i.ytimg.com/vi/SBFW2MdlDA4/sddefault.jpg'
+      thumbnail: 'https://dicas.olx.com.br/wp-content/uploads/2021/05/app-da-olx-baixar-925x308.png'
     },
   ];
 
   const SPACING = 10;
-  const ITEM_SIZE = Platform.OS === 'ios' ? width * 0.72 : width * 0.74;
+  const ITEM_SIZE = Platform.OS === 'ios' ? width * 0.72 : width * 0.76;
   const EMPTY_ITEM_SIZE = (width - ITEM_SIZE) / 2;
   const BACKDROP_HEIGHT = height * 0.65;
 
-  const Backdrop = ({ data, scrollX }: { data:any, scrollX:any }) => {
+  const Backdrop = ({ scrollX }: { scrollX:any }) => {
     return (
       <View style={{ position: 'absolute', width, height: BACKDROP_HEIGHT }}>
         <FlatList
@@ -57,7 +54,7 @@ export default function Home() {
               return null;
             }
             const translateX = scrollX.interpolate({
-              inputRange: [(index - 2) * ITEM_SIZE, (index - 1) * ITEM_SIZE],
+              inputRange: [(index - 1) * ITEM_SIZE, (index - 0) * ITEM_SIZE],
               outputRange: [0, width],
               // extrapolate:'clamp'
             });
@@ -112,9 +109,9 @@ export default function Home() {
 
     const Item = ({ title, description, thumbnail }: {title:string, description: string, thumbnail: string}) => (
       <Animated.View style={{
-        paddingHorizontal: 10,
+        paddingHorizontal: 20,
         alignItems: 'center',
-        padding: SPACING * 2,
+        padding: SPACING * 3,
         transform: [{ translateY }],
       }}>
         <Image
@@ -123,7 +120,7 @@ export default function Home() {
               uri: thumbnail,
             }}
           />
-        <Text style={{alignSelf: 'center', paddingVertical: 6, fontSize: 20, fontWeight: 'bold'}}>{title}</Text>
+        <Text style={{alignSelf: 'center', paddingVertical: 6, fontSize: 20, fontWeight: 'bold',}}>{title}</Text>
         <Text style={{width: 280, textAlign: 'justify', alignSelf: 'center', fontSize: 16}}>{description}</Text>
       </Animated.View>
     );
@@ -133,9 +130,9 @@ export default function Home() {
 
   return(
     <>
-        <ContainerMain style={{padding: 10, backgroundColor: '#FFF'}}>
+        <ContainerMain>
           <View>
-            <Backdrop data={DATA} scrollX={scrollX} />
+            <Backdrop scrollX={scrollX} />
             <Animated.FlatList
             data={DATA}
             renderItem={renderItem}
