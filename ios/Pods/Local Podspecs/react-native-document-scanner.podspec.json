@@ -1,0 +1,27 @@
+{
+  "name": "react-native-document-scanner",
+  "version": "1.0.7",
+  "summary": "Document scanner for React-Native",
+  "description": "Document scanner with border detection, perspective correction and custom crop/resize",
+  "homepage": "https://github.com/ubidreams/react-native-document-scanner",
+  "license": "MIT",
+  "authors": "Romain MARQUOIS",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/ubidreams/react-native-document-scanner",
+    "tag": "master"
+  },
+  "source_files": "ios/**/*.{h,mm,m}",
+  "requires_arc": true,
+  "static_framework": true,
+  "dependencies": {
+    "libopencv-contrib": [
+      "~> 3.4.1"
+    ],
+    "React": [
+
+    ]
+  }
+}

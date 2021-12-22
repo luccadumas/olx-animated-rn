@@ -1,0 +1,1 @@
+../../../../../node_modules/react-native-document-scanner/ios/OpenCV/UIImage+OpenCVBW.h
