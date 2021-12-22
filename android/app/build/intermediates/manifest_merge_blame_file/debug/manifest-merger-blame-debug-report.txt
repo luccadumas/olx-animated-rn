@@ -12,57 +12,109 @@
 11-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/debug/AndroidManifest.xml:5:5-77
 11-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:4:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.75.1] /Users/luccadumas/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.75.1] /Users/luccadumas/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:6:5-24:19
-16        android:name="com.miihbebeapp.MainApplication"
-16-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /Users/luccadumas/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/debug/AndroidManifest.xml:8:9-44
-25        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-25-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/debug/AndroidManifest.xml:11:9-86
-25-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/debug/AndroidManifest.xml:11:19-83
-26        <activity
-26-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:13:7-23:18
-27            android:name="com.miihbebeapp.MainActivity"
-27-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:14:9-37
-28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-28-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:16:9-86
-29            android:label="@string/app_name"
-29-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:15:9-41
-30            android:launchMode="singleTask"
-30-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:17:9-40
-31            android:windowSoftInputMode="adjustResize" >
-31-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:18:9-51
-32            <intent-filter>
-32-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:19:9-22:25
-33                <action android:name="android.intent.action.MAIN" />
-33-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:20:13-65
-33-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:20:21-62
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:21:13-73
-35-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:21:23-70
-36            </intent-filter>
-37        </activity>
-38    </application>
-39
-40</manifest>
+12-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:4:5-65
+13-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:4:22-62
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.75.1] /Users/luccadumas/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.75.1] /Users/luccadumas/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->[:woonivers_react-native-document-scanner] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/@woonivers/react-native-document-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+15-->[:woonivers_react-native-document-scanner] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/@woonivers/react-native-document-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-78
+16
+17    <uses-feature android:name="android.hardware.camera" />
+17-->[:woonivers_react-native-document-scanner] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/@woonivers/react-native-document-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-60
+17-->[:woonivers_react-native-document-scanner] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/@woonivers/react-native-document-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:19-57
+18    <uses-feature android:name="android.hardware.camera.autofocus" />
+18-->[:woonivers_react-native-document-scanner] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/@woonivers/react-native-document-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-70
+18-->[:woonivers_react-native-document-scanner] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/@woonivers/react-native-document-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:19-67
+19
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21
+22    <queries>
+22-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-14:15
+23        <intent>
+23-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+24            <action android:name="android.media.action.IMAGE_CAPTURE" />
+24-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+24-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+25        </intent>
+26    </queries>
+27
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+29
+30    <application
+30-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:6:5-25:19
+31        android:name="com.miihbebeapp.MainApplication"
+31-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:8:7-38
+32        android:allowBackup="false"
+32-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:12:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] /Users/luccadumas/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:10:7-41
+36        android:label="@string/app_name"
+36-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:9:7-39
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:11:7-52
+38        android:theme="@style/AppTheme"
+38-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:13:7-38
+39        android:usesCleartextTraffic="true" >
+39-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/debug/AndroidManifest.xml:8:9-44
+40        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+40-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/debug/AndroidManifest.xml:11:9-86
+40-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/debug/AndroidManifest.xml:11:19-83
+41        <activity
+41-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:14:7-24:18
+42            android:name="com.miihbebeapp.MainActivity"
+42-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:15:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+43-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:17:9-86
+44            android:label="@string/app_name"
+44-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:16:9-41
+45            android:launchMode="singleTask"
+45-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:18:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:19:9-51
+47            <intent-filter>
+47-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:20:9-23:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:21:13-65
+48-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:21:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:22:13-73
+50-->/Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/android/app/src/main/AndroidManifest.xml:22:23-70
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+55            android:name="androidx.core.content.FileProvider"
+55-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+56            android:authorities="com.miihbebeapp.provider"
+56-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+57            android:exported="false"
+57-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+58            android:grantUriPermissions="true" >
+58-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+59            <meta-data
+59-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+61                android:resource="@xml/provider_paths" />
+61-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+62        </provider>
+63
+64        <activity
+64-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+65            android:name="com.yalantis.ucrop.UCropActivity"
+65-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+66            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+66-->[:react-native-image-crop-picker] /Users/luccadumas/Documents/workspace/Meus Projetos/olx-animated-rn/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+67    </application>
+68
+69</manifest>

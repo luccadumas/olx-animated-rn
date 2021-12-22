@@ -18,19 +18,19 @@ export default function Home() {
   const DATA = [
     {
       id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
-      title: 'First Item',
+      title: 'Consoles',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
       thumbnail: 'https://dicas.olx.com.br/wp-content/uploads/2021/04/PS4-na-olx-preco-ficha-tecnica.png'
     },
     {
       id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
-      title: 'Second Item',
+      title: 'Smarthphones',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
       thumbnail: 'https://dicas.olx.com.br/wp-content/uploads/2021/04/celulares-mais-vendidos-na-olx-2020-capa-925x308.png'
     },
     {
       id: '58694a0f-3da1-471f-bd96-145571e29d72',
-      title: 'Third Item',
+      title: 'Tablets',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
       thumbnail: 'https://dicas.olx.com.br/wp-content/uploads/2021/05/app-da-olx-baixar-925x308.png'
     },
@@ -120,7 +120,7 @@ export default function Home() {
               uri: thumbnail,
             }}
           />
-        <Text style={{alignSelf: 'center', paddingVertical: 6, fontSize: 20, fontWeight: 'bold',}}>{title}</Text>
+        <Text style={{alignSelf: 'center', paddingVertical: 6, fontSize: 20, fontWeight: 'bold', }}>{title}</Text>
         <Text style={{width: 280, textAlign: 'justify', alignSelf: 'center', fontSize: 16}}>{description}</Text>
       </Animated.View>
     );

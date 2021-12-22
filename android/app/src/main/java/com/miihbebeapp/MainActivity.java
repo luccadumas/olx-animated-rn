@@ -1,5 +1,6 @@
 package com.miihbebeapp;
 
+import com.anyline.RNImageToPDF.RNImageToPdfPackage;
 import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {

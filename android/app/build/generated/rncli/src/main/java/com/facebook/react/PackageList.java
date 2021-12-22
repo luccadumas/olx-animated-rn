@@ -13,8 +13,14 @@ import java.util.ArrayList;
 
 // @react-native-masked-view/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @woonivers/react-native-document-scanner
+import com.documentscanner.DocumentScannerPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+// react-native-image-crop-picker
+import com.reactnative.ivpusic.imagepicker.PickerPackage;
+// react-native-image-to-pdf
+import com.anyline.RNImageToPDF.RNImageToPdfPackage;
 // react-native-linear-gradient
 import com.BV.LinearGradient.LinearGradientPackage;
 // react-native-reanimated
@@ -73,7 +79,10 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new RNCMaskedViewPackage(),
+      new DocumentScannerPackage(),
       new RNGestureHandlerPackage(),
+      new PickerPackage(),
+      new RNImageToPdfPackage(),
       new LinearGradientPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),

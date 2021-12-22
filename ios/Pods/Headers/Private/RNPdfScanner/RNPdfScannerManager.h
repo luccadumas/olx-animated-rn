@@ -1,0 +1,1 @@
+../../../../../node_modules/@woonivers/react-native-document-scanner/ios/RNPdfScannerManager.h

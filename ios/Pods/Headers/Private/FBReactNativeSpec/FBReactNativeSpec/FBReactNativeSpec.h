@@ -1,1 +1,1 @@
-../../../../../../node_modules/react-native/React/FBReactNativeSpec/Projetos/olx-animated-rn/node_modules/react-native/React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h
+../../../../../../node_modules/react-native/React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h
